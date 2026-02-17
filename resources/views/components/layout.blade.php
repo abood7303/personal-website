@@ -3,17 +3,22 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Abdulrahman Ahmed - Creative Developer & Designer crafting high-end digital experiences. Specialized in Laravel, Tailwind, and Modern Web Tech.">
-    <meta name="keywords" content="Web Developer, UI/UX Designer, Laravel Developer, Portfolio, Abdulrahman Ahmed">
+    <meta name="description" content="{{ __('messages.seo.description') }}">
+    <meta name="keywords" content="{{ __('messages.seo.keywords') }}">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ url()->current() }}">
-    <meta property="og:title" content="@yield('title', 'Abdulrahman Ahmed | Creative Developer')">
-    <meta property="og:description" content="Crafting high-end digital experiences for ambitious brands worldwide.">
-    <meta property="og:image" content="{{ asset('images/og-image.png') }}">
+    <meta property="og:title" content="@yield('title', __('messages.seo.title'))">
+    <meta property="og:description" content="{{ __('messages.seo.description') }}">
+    <meta property="og:image" content="{{ asset('images/hero-portrait.png') }}">
 
-    <title>@yield('title', 'Abdulrahman Ahmed | Creative Developer & Designer')</title>
+    <!-- Luxurious SVG Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230A0A0A'/><text y='72' x='50' font-family='serif' font-size='65' text-anchor='middle' fill='%23C5A059' font-style='italic' font-weight='bold'>A</text></svg>">
+    
+    <link rel="canonical" href="{{ url()->current() }}">
+
+    <title>@yield('title', __('messages.seo.title'))</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

@@ -1,40 +1,68 @@
-# Arik Portfolio - Abdulrahman Ahmed
+# Arik - Premium Dark Luxury Portfolio
 
-A premium portfolio website matching the "Arik" Framer template design.
-Built with Laravel 9, TailwindCSS, Alpine.js, GSAP, and Filament v2.
+A sophisticated personal portfolio website built with **Laravel 11**, designed for creative professionals, developers, and digital marketers who value high-end aesthetics and seamless user experience.
 
-## Prerequisites
-- PHP 8.0+
+![Portfolio Preview](public/images/hero-portrait.png)
+
+## ✨ Key Features
+
+-   **Dark Luxury Aesthetic:** Meticulously crafted UI with a gold-on-black color palette.
+-   **Smooth Scrolling:** Integrated with **Lenis** for a silky-smooth browsing experience.
+-   **Dynamic Animations:** Powered by **GSAP** and **ScrollTrigger** for elegant reveal and parallax effects.
+-   **Multi-language Support:** Full RTL/LTR support for **Arabic** and **English**.
+-   **Fully Responsive:** Optimized for all devices, from ultra-wide monitors to mobile screens.
+-   **SEO Optimized:** Dynamic meta tags, Open Graph support, and semantic HTML.
+-   **CMS Ready:** Powered by a clean Laravel backend for managing Services, Works, and Blog Posts.
+
+## 🛠️ Tech Stack
+
+-   **Backend:** Laravel 11 (PHP 8.2+)
+-   **Frontend:** Tailwind CSS, Alpine.js
+-   **Animations:** GSAP, ScrollTrigger, Lenis (Smooth Scroll)
+-   **Database:** SQLite/MySQL
+-   **Icons:** Heroicons (Custom SVG implementations)
+
+## 🚀 Getting Started
+
+### Prerequisites
+- PHP 8.2 or higher
 - Composer
-- SQLite (built-in)
+- Node.js & NPM
 
-## Installation
+### Installation
 
-1. Navigate to project directory.
-2. `composer install`
-3. `php artisan migrate --seed`
-4. `php artisan storage:link`
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/abood7303/personal-website.git
+   cd personal-website
+   ```
 
-## Running
-`php artisan serve`
+2. **Install dependencies:**
+   ```bash
+   composer install
+   npm install
+   ```
 
-## Admin Panel
-URL: `/admin`
-User: `admin@admin.com`
-Pass: `password`
+3. **Environment Setup:**
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   ```
 
-## WhatsApp Configuration
-Update `.env`:
-`WHATSAPP_DRIVER=meta` (or `log` to test locally in `storage/logs/laravel.log`)
-`META_WA_PHONE_NUMBER_ID=...`
-`META_WA_ACCESS_TOKEN=...`
+4. **Database Migration & Seeding:**
+   ```bash
+   php artisan migrate --seed
+   ```
 
-## Architecture & Design
-- **Frontend**: Blade components with TailwindCSS (CDN) and Alpine.js.
-- **Animations**: GSAP ScrollTrigger for scroll reveals and marquee effects.
-- **Bilingual**: Full RTL/LTR support handled via `SetLocale` middleware. Toggle in Navbar.
-- **Backend**: Filament v2 for easy content management.
+5. **Run the development server:**
+   ```bash
+   npm run dev
+   php artisan serve
+   ```
 
-## Limitation Notes
-- **Laravel Version**: Downgraded to Laravel 9 to match the PHP 8.0 environment.
-- **Node/NPM**: CDN assets are used as Node is not available in the current environment.
+## ✒️ Author
+**Abdulrahman Ahmed**
+*Creative Developer & Digital Marketer*
+
+---
+Made with ❤️ by Abdulrahman.

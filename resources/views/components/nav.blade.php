@@ -11,7 +11,7 @@
 
             <!-- Desktop Menu -->
             <div class="hidden md:flex space-x-8 rtl:space-x-reverse items-center">
-                @foreach (['home', 'services', 'work.index', 'about'] as $route)
+                @foreach (['home', 'services', 'work.index', 'blog.index', 'about'] as $route)
                     <a href="{{ route($route) }}"
                         class="text-sm font-medium {{ request()->routeIs($route) ? 'text-accent' : 'text-text-secondary hover:text-text-primary' }} transition">
                         {{ __('nav.' . $route) }}
@@ -49,7 +49,7 @@
         x-transition:leave-end="opacity-0 -translate-y-2"
         class="md:hidden bg-dark-900 border-b border-dark-border absolute w-full left-0">
         <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            @foreach (['home', 'services', 'work.index', 'about'] as $route)
+            @foreach (['home', 'services', 'work.index', 'blog.index', 'about'] as $route)
                 <a href="{{ route($route) }}"
                     class="block px-3 py-2 rounded-md text-base font-medium {{ request()->routeIs($route) ? 'text-accent bg-dark-800' : 'text-text-secondary hover:text-text-primary hover:bg-dark-800' }}">
                     {{ __('nav.' . $route) }}

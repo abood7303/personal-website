@@ -1,3 +1,4 @@
+@section('title', __('messages.seo.about_title'))
 <x-layout>
     <!-- About Hero -->
     <section class="pt-40 pb-20 relative overflow-hidden">
@@ -46,7 +47,7 @@
                     </p>
                 </div>
                 
-                <div class="lg:col-span-8 grid grid-cols-1 sm:grid-cols-2 gap-8">
+                <div class="lg:col-span-8 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8">
                     <div class="p-10 rounded-2xl bg-white/[0.02] border border-white/5 reveal card-tilt">
                         <h4 class="text-accent text-sm uppercase tracking-widest mb-6">Development</h4>
                         <ul class="space-y-3 text-text-primary text-lg font-serif">
@@ -62,7 +63,15 @@
                         <ul class="space-y-3 text-text-primary text-lg font-serif">
                             <li>UI/UX Design</li>
                             <li>Brand Identity</li>
-                          
+                            <li>Visual Graphics</li>
+                        </ul>
+                    </div>
+                    <div class="p-10 rounded-2xl bg-white/[0.02] border border-white/5 reveal card-tilt">
+                        <h4 class="text-accent text-sm uppercase tracking-widest mb-6">Marketing</h4>
+                        <ul class="space-y-3 text-text-primary text-lg font-serif">
+                            <li>Digital Marketing</li>
+                            <li>Social Media Management</li>
+                            <li>SEO Optimization</li>
                         </ul>
                     </div>
                 </div>

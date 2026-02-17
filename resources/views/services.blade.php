@@ -1,3 +1,4 @@
+@section('title', __('messages.seo.services_title'))
 <x-layout>
     <!-- Services Hero -->
     <section class="pt-40 pb-20 relative overflow-hidden">

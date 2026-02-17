@@ -1,3 +1,5 @@
+{{-- Edited by Antigravity AI for testing GitHub Desktop integration --}}
+@section('title', __('messages.seo.home_title'))
 <x-layout>
     <!-- Hero -->
     <section class="min-h-screen flex items-center pt-20 relative overflow-hidden">
@@ -279,6 +281,50 @@
                             class="h-2 rounded-full transition-all duration-500"></button>
                     @endforeach
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section: Insights -->
+    <section class="py-32 border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+                <div>
+                    <span class="text-accent font-medium tracking-widest uppercase text-sm mb-4 block reveal">{{ app()->getLocale() == 'ar' ? 'المدونة' : 'Blog' }}</span>
+                    <h2 class="text-4xl md:text-5xl font-serif text-text-primary reveal">{{ app()->getLocale() == 'ar' ? 'أحدث المقالات' : 'Latest Insights' }}</h2>
+                </div>
+                <div class="reveal">
+                    <a href="{{ route('blog.index') }}" class="group flex items-center gap-3 text-accent hover:text-white transition-all duration-300">
+                        <span class="text-lg border-b border-accent/30 group-hover:border-white">{{ app()->getLocale() == 'ar' ? 'عرض كل المقالات' : 'View All Posts' }}</span>
+                        <svg class="w-5 h-5 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                @foreach($posts as $post)
+                    <article class="group reveal flex flex-col bg-white/[0.02] border border-white/5 rounded-2xl overflow-hidden hover:border-accent/20 transition-all duration-500 card-tilt">
+                        <div class="relative aspect-[16/10] overflow-hidden">
+                             @if($post->image)
+                                <img src="{{ str_starts_with($post->image, 'http') ? $post->image : asset('storage/'.$post->image) }}" alt="{{ $post->{'title_'.app()->getLocale()} }}" 
+                                     class="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-700">
+                            @else
+                                <div class="w-full h-full bg-dark-800 flex items-center justify-center font-serif italic text-xl text-dark-700">Insights</div>
+                            @endif
+                        </div>
+                        <div class="p-8">
+                            <h3 class="text-xl font-serif text-text-primary mb-4 group-hover:text-accent transition-colors">
+                                {{ $post->{'title_'.app()->getLocale()} }}
+                            </h3>
+                            <a href="{{ route('blog.show', $post->slug) }}" class="text-accent text-xs uppercase tracking-widest font-bold flex items-center gap-2">
+                                {{ app()->getLocale() == 'ar' ? 'اقرأ' : 'Read' }}
+                                <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                            </a>
+                        </div>
+                    </article>
+                @endforeach
             </div>
         </div>
     </section>

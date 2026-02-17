@@ -3,7 +3,7 @@ return [
     'hero' => [
         'title' => 'Developer',
         'subtitle' => 'Web',
-        'description' => 'I am Abdulrahman Ahmed, specializing in web development and design.',
+        'description' => 'I am Abdulrahman Ahmed, specializing in web development and design and Digital marketing.',
         'cta' => "Let's Talk",
     ],
     'services' => [
@@ -36,8 +36,8 @@ return [
         'badge' => 'Designer & Developer',
         'hero_title' => 'Turning Vision',
         'hero_subtitle' => 'into Reality.',
-        'intro' => 'I specialize in developing and designing high-performance websites.',
-        'description' => 'With over 5 years of experience in the digital space, I help visionary founders and established brands stand out in the saturated digital landscape. My approach is rooted in strategy, driven by design, and executed with clean, performant code.',
+        'intro' => 'I specialize in high-performance web development, design, and digital marketing.',
+        'description' => 'With years of experience in the digital arena, I help visionaries and brands excel by combining cutting-edge web development with effective digital marketing strategies to maximize impact and reach.',
         'capabilities_title' => 'Capabilities',
         'capabilities_desc' => 'A versatile toolkit designed to handle everything from initial concepts to final deployments.',
     ],
@@ -78,5 +78,15 @@ return [
         'created_at' => 'Created At',
         'email' => 'Email',
         'password' => 'Password',
+    ],
+    'seo' => [
+        'title' => 'Abdulrahman Ahmed | Web Developer & Digital Marketing Expert',
+        'description' => 'Creative developer and designer crafting high-end digital experiences and strategic marketing solutions to help your brand grow.',
+        'keywords' => 'Web Developer, Digital Marketing, UI/UX Designer, Laravel Developer, Portfolio, Abdulrahman Ahmed',
+        'home_title' => 'Home | Abdulrahman Ahmed',
+        'about_title' => 'About | Developer & Marketer',
+        'services_title' => 'Services | Digital Solutions',
+        'work_title' => 'Portfolio | Digital Projects',
+        'blog_title' => 'Blog | Digital Insights',
     ],
 ];
