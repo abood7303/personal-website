@@ -1,77 +1,68 @@
-<div align="center">
+# Arik - Premium Dark Luxury Portfolio
 
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="60%" />
+A sophisticated personal portfolio website built with **Laravel 11**, designed for creative professionals, developers, and digital marketers who value high-end aesthetics and seamless user experience.
 
-# 👋 Hi, I'm Abdulrahman Ahmed
-### 💻 Laravel Web Developer | Full Stack Developer
+![Portfolio Preview](public/images/hero-portrait.png)
 
-🚀 Passionate about building modern web applications using Laravel & PHP
+## ✨ Key Features
 
-![Profile Views](https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&color=orange)
-
----
-
-## 🧑‍💻 About Me
-
-- 💼 Web Developer specialized in **Laravel**
-- 🌱 Currently learning **Advanced Laravel & APIs**
-- ⚡ Love clean code & performance optimization
-- 📍 Based in Saudi Arabia
-
----
+-   **Dark Luxury Aesthetic:** Meticulously crafted UI with a gold-on-black color palette.
+-   **Smooth Scrolling:** Integrated with **Lenis** for a silky-smooth browsing experience.
+-   **Dynamic Animations:** Powered by **GSAP** and **ScrollTrigger** for elegant reveal and parallax effects.
+-   **Multi-language Support:** Full RTL/LTR support for **Arabic** and **English**.
+-   **Fully Responsive:** Optimized for all devices, from ultra-wide monitors to mobile screens.
+-   **SEO Optimized:** Dynamic meta tags, Open Graph support, and semantic HTML.
+-   **CMS Ready:** Powered by a clean Laravel backend for managing Services, Works, and Blog Posts.
 
 ## 🛠️ Tech Stack
 
-### 🚀 Backend
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-EF3B2D?style=flat&logo=laravel&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+-   **Backend:** Laravel 11 (PHP 8.2+)
+-   **Frontend:** Tailwind CSS, Alpine.js
+-   **Animations:** GSAP, ScrollTrigger, Lenis (Smooth Scroll)
+-   **Database:** SQLite/MySQL
+-   **Icons:** Heroicons (Custom SVG implementations)
 
-### 🎨 Frontend
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
+## 🚀 Getting Started
 
-### ⚙️ Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+### Prerequisites
+- PHP 8.2 or higher
+- Composer
+- Node.js & NPM
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/abood7303/personal-website.git
+   cd personal-website
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   composer install
+   npm install
+   ```
+
+3. **Environment Setup:**
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   ```
+
+4. **Database Migration & Seeding:**
+   ```bash
+   php artisan migrate --seed
+   ```
+
+5. **Run the development server:**
+   ```bash
+   npm run dev
+   php artisan serve
+   ```
+
+## ✒️ Author
+**Abdulrahman Ahmed**
+*Creative Developer & Digital Marketer*
 
 ---
-
-## 📊 GitHub Stats
-
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight" width="48%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight" width="48%" />
-
----
-
-## 📌 Featured Projects
-
-🔹 Laravel E-Commerce System  
-🔹 RESTful API Platform  
-🔹 Admin Dashboard  
-🔹 CMS System  
-
-*(Add your real projects here)*
-
----
-
-## 📫 Contact Me
-
-- 💬 WhatsApp: +966501371564
-- 📧 Email: abd.alkamel53@gmail.com
-- 🌐 Portfolio: Coming Soon
-- 💼 LinkedIn: https://www.linkedin.com/in/abood-alkamel-39558b291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
-
----
-
-### ⚡ Fun Fact
-> "Code is like humor. When you have to explain it, it’s bad."
-
----
-
-⭐ If you like my work, consider giving a star!
-</div>
-
+Made with ❤️ by Abdulrahman.
