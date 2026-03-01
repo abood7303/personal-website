@@ -22,6 +22,7 @@
                         <div class="relative aspect-[16/10] overflow-hidden">
                             @if($post->image)
                                 <img src="{{ str_starts_with($post->image, 'http') ? $post->image : asset('storage/'.$post->image) }}" alt="{{ $post->{'title_'.app()->getLocale()} }}" 
+                                     loading="lazy"
                                      class="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-700 img-reveal">
                             @else
                                 <div class="w-full h-full bg-dark-800 flex items-center justify-center font-serif italic text-xl text-dark-700">Arik Insights</div>

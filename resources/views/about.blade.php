@@ -27,7 +27,7 @@
                          <img src="{{ asset('images/hero-portrait.png') }}" 
                               alt="Abdulrahman Ahmed" 
                               style="background: transparent;"
-                              class="w-full h-full object-cover object-top transition-all duration-700 img-reveal">
+                              class="w-full h-full object-cover object-top transition-all duration-700 img-reveal"> 
                     </div>
                     <!-- Ornamental Corner -->
                     <div class="absolute -bottom-6 -right-6 w-32 h-32 border-r border-b border-accent/30 pointer-events-none"></div>

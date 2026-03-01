@@ -55,6 +55,10 @@
                             class="text-text-secondary opacity-60 hover:text-accent hover:opacity-100 transition-all duration-300 flex items-center gap-2 group"><span
                                 class="w-0 group-hover:w-4 h-[1px] bg-accent transition-all duration-300"></span>{{ __('nav.work.index') }}</a>
                     </li>
+                    <li><a href="{{ route('blog.index') }}"
+                            class="text-text-secondary opacity-60 hover:text-accent hover:opacity-100 transition-all duration-300 flex items-center gap-2 group"><span
+                                class="w-0 group-hover:w-4 h-[1px] bg-accent transition-all duration-300"></span>{{ __('nav.blog.index') }}</a>
+                    </li>
                     <li><a href="{{ route('about') }}"
                             class="text-text-secondary opacity-60 hover:text-accent hover:opacity-100 transition-all duration-300 flex items-center gap-2 group"><span
                                 class="w-0 group-hover:w-4 h-[1px] bg-accent transition-all duration-300"></span>{{ __('nav.about') }}</a>
@@ -66,15 +70,12 @@
             <div>
                 <h4 class="text-text-primary font-serif italic text-xl mb-8">{{ __('messages.footer.services') }}</h4>
                 <ul class="space-y-4">
-                    <li><a href="#"
-                            class="text-text-secondary opacity-60 hover:text-accent hover:opacity-100 transition-all duration-300 line-clamp-1 border-b border-transparent hover:border-accent/20">Web
-                            Design & Dev</a></li>
-                    <li><a href="#"
-                            class="text-text-secondary opacity-60 hover:text-accent hover:opacity-100 transition-all duration-300 line-clamp-1 border-b border-transparent hover:border-accent/20">UI/UX
-                            Strategy</a></li>
-                    <li><a href="#"
-                            class="text-text-secondary opacity-60 hover:text-accent hover:opacity-100 transition-all duration-300 line-clamp-1 border-b border-transparent hover:border-accent/20">full
-                            stack</a></li>
+                    @foreach(\App\Models\Service::take(4)->get() as $service)
+                        <li><a href="{{ route('services') }}"
+                                class="text-text-secondary opacity-60 hover:text-accent hover:opacity-100 transition-all duration-300 line-clamp-1 border-b border-transparent hover:border-accent/20">
+                                {{ $service->{'title_'.app()->getLocale()} }}
+                            </a></li>
+                    @endforeach
                 </ul>
             </div>
 

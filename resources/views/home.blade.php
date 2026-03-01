@@ -156,6 +156,7 @@
                             @if ($work->image)
                                 <img src="{{ asset('storage/' . $work->image) }}"
                                     alt="{{ $work->{'title_' . app()->getLocale()} }}"
+                                    loading="lazy"
                                     class="object-cover w-full h-full transform scale-110 group-hover:scale-100 transition-transform duration-1000 ease-out grayscale-[0.3] group-hover:grayscale-0 img-reveal">
                             @else
                                 <div class="w-full h-full flex items-center justify-center text-dark-700 font-serif italic text-2xl">
@@ -309,6 +310,7 @@
                         <div class="relative aspect-[16/10] overflow-hidden">
                              @if($post->image)
                                 <img src="{{ str_starts_with($post->image, 'http') ? $post->image : asset('storage/'.$post->image) }}" alt="{{ $post->{'title_'.app()->getLocale()} }}" 
+                                     loading="lazy"
                                      class="object-cover w-full h-full transform group-hover:scale-105 transition-transform duration-700">
                             @else
                                 <div class="w-full h-full bg-dark-800 flex items-center justify-center font-serif italic text-xl text-dark-700">Insights</div>
