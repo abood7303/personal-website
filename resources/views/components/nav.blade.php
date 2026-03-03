@@ -19,7 +19,7 @@
                 @endforeach
 
                 <!-- WhatsApp Direct Button -->
-                <a href="https://wa.me/966501371564" target="_blank"
+                <a href="https://wa.me/{{ config('contact.whatsapp') }}" target="_blank"
                     class="px-6 py-2 bg-accent text-dark-900 rounded-full text-sm font-bold hover:bg-white transition-all duration-300">
                     {{ __('nav.contact') }}
                 </a>
@@ -55,7 +55,7 @@
                     {{ __('nav.' . $route) }}
                 </a>
             @endforeach
-            <a href="https://wa.me/966501371564" target="_blank"
+            <a href="https://wa.me/{{ config('contact.whatsapp') }}" target="_blank"
                 class="block px-3 py-2 rounded-md text-base font-medium text-accent bg-accent/10 border border-accent/20">
                 {{ __('nav.contact') }}
             </a>

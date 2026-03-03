@@ -17,7 +17,7 @@
         <div class="max-w-7xl mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20">
                 @foreach($works as $work)
-                    <div class="reveal block">
+                    <div class="reveal block card-tilt">
                         <div class="relative overflow-hidden rounded-[2px] bg-dark-800 aspect-[16/10] mb-8 group">
                             <!-- Category Badge -->
                             <div class="absolute top-6 right-6 z-20">

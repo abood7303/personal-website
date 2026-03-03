@@ -15,7 +15,7 @@
                         {{ __('messages.hero.description') }}
                     </p>
                     <div class="reveal mt-4">
-                        <a href="https://wa.me/966501371564" target="_blank"
+                        <a href="https://wa.me/{{ config('contact.whatsapp') }}" target="_blank"
                             class="group magnetic interactive relative inline-flex items-center justify-center px-10 py-5 font-medium tracking-wide text-dark-900 bg-accent rounded-full overflow-hidden transition-all duration-300 hover:scale-105 active:scale-95 shadow-xl shadow-accent/20">
                             <span class="relative z-10">{{ __('messages.hero.cta') }}</span>
                         </a>
@@ -83,7 +83,7 @@
                 <div class="lg:col-span-8 space-y-4">
                     @foreach ($services as $service)
                         <div
-                            class="group relative py-12 px-8 rounded-2xl transition-all duration-500 hover:bg-white/[0.02] border border-transparent hover:border-white/5 reveal card-tilt">
+                            class="group relative py-12 px-8 rounded-2xl transition-all duration-500 hover:bg-white/[0.02] border border-transparent hover:border-white/5 reveal">
                             <div class="flex flex-col md:flex-row md:items-center justify-between gap-8">
                                 <div class="flex items-start gap-8">
                                     <span
@@ -342,7 +342,7 @@
                 <span class="italic text-accent block">{{ __('messages.cta.subtitle') }}</span>
             </h2>
             <div class="reveal mt-16">
-                <a href="https://wa.me/966501371564" target="_blank"
+                <a href="https://wa.me/{{ config('contact.whatsapp') }}" target="_blank"
                     class="group relative inline-flex items-center justify-center px-16 py-8 font-medium tracking-wide text-dark-900 bg-accent rounded-full overflow-hidden transition-all duration-300 hover:scale-105 active:scale-95 shadow-2xl shadow-accent/30">
                     <span class="relative z-10 text-2xl">{{ __('messages.cta.button') }}</span>
                     <div

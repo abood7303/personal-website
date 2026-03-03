@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --dark-900: 11 12 14;
+    --dark-800: 20 22 27;
+    --dark-700: 26 29 35;
+    --dark-border: rgba(255, 255, 255, 0.06);
+    --text-primary: 242 242 242;
+    --text-secondary: 231 211 176;
+    --accent: 231 211 176;
+    --bg-color: 14 14 14;
+}
+
+body {
+    background: rgb(var(--bg-color));
+    color: rgb(var(--text-primary));
+}
+
+/* Glowing Scroll Progress Bar */
+.scroll-progress-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    z-index: 1000;
+    pointer-events: none;
+}
+.scroll-progress-bar {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, transparent, rgb(var(--accent)));
+    box-shadow: 0 0 10px rgb(var(--accent)), 0 0 5px rgb(var(--accent));
+    transition: width 0.1s ease-out;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(var(--bg-color));
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(var(--accent));
+    border-radius: 10px;
+    border: 2px solid rgb(var(--bg-color));
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(var(--text-primary));
+}
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(var(--accent)) rgb(var(--bg-color));
+}
+
+.card-tilt {
+    will-change: transform;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}

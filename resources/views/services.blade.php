@@ -56,7 +56,7 @@
                 {{ __('messages.services.cta_title') }}
             </h2>
             <div class="reveal">
-                <a href="https://wa.me/966501371564" target="_blank" class="group relative inline-flex items-center justify-center px-12 py-6 font-medium tracking-wide text-dark-900 bg-accent rounded-full overflow-hidden transition-all duration-300 hover:scale-105 active:scale-95 shadow-xl shadow-accent/20">
+                <a href="https://wa.me/{{ config('contact.whatsapp') }}" target="_blank" class="group relative inline-flex items-center justify-center px-12 py-6 font-medium tracking-wide text-dark-900 bg-accent rounded-full overflow-hidden transition-all duration-300 hover:scale-105 active:scale-95 shadow-xl shadow-accent/20">
                     <span class="relative z-10 text-xl">{{ __('messages.services.cta_button') }}</span>
                 </a>
             </div>

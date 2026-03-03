@@ -44,4 +44,5 @@ Route::group(['middleware' => 'web'], function() {
     })->name('blog.show');
     
     Route::get('/about', function () { return view('about'); })->name('about');
+    Route::get('/login', function () { return redirect('/admin/login'); })->name('login');
 });
