@@ -1,0 +1,170 @@
+{
+    "services": [
+        {
+            "id": 3,
+            "title_ar": "مطور ويب",
+            "title_en": "Web Developer",
+            "description_ar": "احصل على حلول تطوير ويب مخصصة مصممة وفقًا لمواصفاتك، وتقدم تجربة مستخدم سلسة وخالية من العيوب...",
+            "description_en": "Get custom web development solutions that are tailored to your specifications, designed to deliver a flawless user experience.\n",
+            "icon": null,
+            "created_at": "2026-02-03T18:07:40.000000Z",
+            "updated_at": "2026-02-04T17:30:04.000000Z"
+        },
+        {
+            "id": 2,
+            "title_ar": " تطوير واجهات المستخدم",
+            "title_en": " Development of User Interfaces ",
+            "description_ar": "تحسين تجربة المستخدم بواجه سهلة وبسيطة",
+            "description_en": "Improving the user experience with a simple and easy interface",
+            "icon": null,
+            "created_at": "2026-02-03T17:59:12.000000Z",
+            "updated_at": "2026-02-03T17:59:12.000000Z"
+        },
+        {
+            "id": 4,
+            "title_ar": "المحتوى وتحسين محركات البحث",
+            "title_en": "Content & Seo",
+            "description_ar": "استراتيجيات تحسين محركات البحث المثبتة التي تعزز أدائك على الإنترنت، وتضعك في مقدمة نتائج البحث.",
+            "description_en": "Proven SEO strategies that enhance your online performance, bringing you to the forefront of organic search results.\n\n",
+            "icon": null,
+            "created_at": "2026-02-03T18:09:41.000000Z",
+            "updated_at": "2026-02-03T18:09:41.000000Z"
+        },
+        {
+            "id": 5,
+            "title_ar": "التسويق الإلكتروني",
+            "title_en": "Digital Marketing",
+            "description_ar": "استراتيجيات تسويقية قائمة على البيانات لزيادة ظهور العلامة التجارية ودفع عجلة النمو.",
+            "description_en": "Data-driven marketing strategies to increase brand visibility and drive growth.",
+            "icon": "speakerphone",
+            "created_at": "2026-02-17T21:52:05.000000Z",
+            "updated_at": "2026-02-17T21:52:05.000000Z"
+        }
+    ],
+    "works": [
+        {
+            "id": 1,
+            "slug": "website",
+            "title_ar": "ويب",
+            "title_en": "website ",
+            "category_ar": "تصميم ويب",
+            "category_en": "Web Design",
+            "content_ar": null,
+            "content_en": null,
+            "image": "works/kSy8GztM8SmGHL46uRmibDABIPPCUh-metac2NlbmUtMzUucG5n-.png",
+            "gallery": null,
+            "created_at": "2026-02-03T17:42:27.000000Z",
+            "updated_at": "2026-02-03T17:42:27.000000Z"
+        },
+        {
+            "id": 4,
+            "slug": "website2",
+            "title_ar": "ويب",
+            "title_en": "website ",
+            "category_ar": "تصميم ويب",
+            "category_en": "Web Design",
+            "content_ar": null,
+            "content_en": null,
+            "image": "works/uMlOeLk9hbUZTyRm2suA4zVHcJEqsP-metac2NlbmUtMjcucG5n-.png",
+            "gallery": null,
+            "created_at": "2026-02-04T15:41:26.000000Z",
+            "updated_at": "2026-02-04T15:41:26.000000Z"
+        },
+        {
+            "id": 5,
+            "slug": "website3",
+            "title_ar": "ويب",
+            "title_en": "website ",
+            "category_ar": "تصميم ويب",
+            "category_en": "Web Design",
+            "content_ar": null,
+            "content_en": null,
+            "image": "works/WacD7z3v5Z3MHngY8phpzqB9rUJBT6-metac2NlbmUtMTQucG5n-.png",
+            "gallery": null,
+            "created_at": "2026-02-04T15:42:04.000000Z",
+            "updated_at": "2026-02-04T15:42:04.000000Z"
+        }
+    ],
+    "testimonials": [
+        {
+            "id": 1,
+            "name_ar": "هاشم عبدالله",
+            "name_en": "hashem",
+            "position_ar": "مستثمر",
+            "position_en": "Investor",
+            "quote_ar": "انا سعيد بالتعامل والعمل معه ",
+            "quote_en": "I am happy to deal and work with him",
+            "image": "testimonials\/Gogd76SeKnL18nkVvx23EVI0QiTFQT-metac2NlbmUtMjMucG5n-.png",
+            "created_at": "2026-02-03T17:47:10.000000Z",
+            "updated_at": "2026-02-03T17:47:10.000000Z"
+        },
+        {
+            "id": 2,
+            "name_ar": "حسيب",
+            "name_en": "hassib",
+            "position_ar": "مستثمر",
+            "position_en": "Investor",
+            "quote_ar": "عبد الرحمن مصمم ويب ممتاز قام بإنشاء موقع مذهل لأعمالي. كان منتبهاً لاحتياجاتي وقدم خدمة عملاء رائعة طوال العملية بأكملها. أنصح بشدة بخدماته.",
+            "quote_en": "Abdulrahman is a top-notch web designer who created a stunning website for my business. He was attentive to my needs and provided excellent customer service throughout the entire process. I highly recommend his services.\n",
+            "image": null,
+            "created_at": "2026-02-03T18:12:52.000000Z",
+            "updated_at": "2026-02-03T18:12:52.000000Z"
+        },
+        {
+            "id": 3,
+            "name_ar": "احمد",
+            "name_en": "ahmed",
+            "position_ar": "مستثمر",
+            "position_en": "Investor",
+            "quote_ar": "عبد الرحمن مصمم ويب ممتاز قام بإنشاء موقع مذهل لأعمالي. كان منتبهاً لاحتياجاتي وقدم خدمة عملاء رائعة طوال العملية بأكملها. أنصح بشدة بخدماته.",
+            "quote_en": "Abdulrahman is a top-notch web designer who created a stunning website for my business. He was attentive to my needs and provided excellent customer service throughout the entire process. I highly recommend his services.\n",
+            "image": null,
+            "created_at": "2026-02-03T18:15:41.000000Z",
+            "updated_at": "2026-02-03T18:15:41.000000Z"
+        }
+    ],
+    "posts": [
+        {
+            "id": 1,
+            "slug": "the-future-of-web-design-in-2025",
+            "title_ar": "مستقبل تصميم الويب في عام 2025",
+            "title_en": "The Future of Web Design in 2025",
+            "excerpt_ar": "استكشاف الجيل القادم من التجارب الرقمية، من التصميمات المدفوعة بالذكاء الاصطناعي إلى واجهات ثلاثية الأبعاد غامرة.",
+            "excerpt_en": "Exploring the next generation of digital experiences, from AI-driven layouts to immersive 3D interfaces.",
+            "content_ar": "<p>في عام 2024، يتجه تصميم الويب نحو تجارب أكثر تخصيصاً وتفاعلية. يلعب الذكاء الاصطناعي دوراً رئيسياً في كيفية إنشاء المخططات وتقديم المحتوى...<\/p>",
+            "content_en": "<p>In 2024, web design is shifting towards more personalized and interactive experiences. Artificial Intelligence is playing a major role in how layouts are generated and content is served...<\/p>",
+            "image": "https:\/\/images.unsplash.com\/photo-1581291518633-83b4ebd1d83e?q=80&w=2070&auto=format&fit=crop",
+            "published_at": "2026-02-03T17:39:08.000000Z",
+            "created_at": "2026-02-03T17:39:08.000000Z",
+            "updated_at": "2026-02-17T22:15:10.000000Z"
+        },
+        {
+            "id": 2,
+            "slug": "marketing-strategies-2026",
+            "title_ar": "استراتيجيات التسويق الرقمي لعام 2026",
+            "title_en": "Digital Marketing Strategies for 2026",
+            "excerpt_ar": "اكتشف الاتجاهات القادمة في التسويق الرقمي وكيفية البقاء في طليعة المنافسة.",
+            "excerpt_en": "Explore the upcoming trends in digital marketing and how to stay ahead of the competition.",
+            "content_ar": "في عام 2026، سيسود التخصيص المدفوع بالذكاء الاصطناعي وتحسين البحث الصوتي على المشهد...",
+            "content_en": "In 2026, AI-driven personalization and voice search optimization will dominate the landscape...",
+            "image": "https:\/\/images.unsplash.com\/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop",
+            "published_at": "2026-02-17T22:07:41.000000Z",
+            "created_at": "2026-02-17T22:07:41.000000Z",
+            "updated_at": "2026-02-17T22:15:10.000000Z"
+        },
+        {
+            "id": 3,
+            "slug": "laravel-11-new-features",
+            "title_ar": "ما الجديد في لارفيل 11",
+            "title_en": "What is New in Laravel 11",
+            "excerpt_ar": null,
+            "excerpt_en": null,
+            "content_ar": "<p dir=\"rtl\">في عالم تطوير الويب، يواصل Laravel الحفاظ على مكانته كأحد أقوى وأشهر أطر العمل في PHP، بفضل بساطته وقوته وتحديثاته المستمرة. ومع إصدار Laravel 11، قدم لنا الفريق بقيادة Taylor Otwell مجموعة من التحسينات المهمة التي تركز على الأداء، المرونة، وتجربة المطور.<br><br>في هذه المقالة، سنتعرف على أبرز المميزات الجديدة في Laravel 11 ولماذا يجب عليك الترقية إليه.<br><br>✅ 1. بنية أبسط وأخف<br><br>من أهم التغييرات في Laravel 11 هو تبسيط هيكل المشروع:<br><br>تقليل عدد الملفات الافتراضية.<br><br>إزالة الملفات غير الضرورية للمشاريع الصغيرة.<br><br>تحسين تنظيم مجلدات الإعدادات.<br><br>هذا يجعل المشروع:<br><br>أسهل في الفهم.<br><br>أسرع في الإعداد.<br><br>مناسب للمبتدئين والمحترفين.<br><br>⚡ 2. تحسين الأداء بشكل ملحوظ<br><br>Laravel 11 يركز بشكل كبير على السرعة، حيث تم:<br><br>تحسين تحميل الإطار.<br><br>تقليل استهلاك الذاكرة.<br><br>تسريع تنفيذ الأوامر.<br><br>النتيجة؟<br>🚀 تطبيقات أسرع وتجربة مستخدم أفضل، خاصة في المشاريع الكبيرة.<br><br>🛠️ 3. تحسين نظام الإعدادات (Configuration)<br><br>تم تطوير طريقة إدارة الإعدادات لتكون:<br><br>أكثر مرونة.<br><br>أسهل في التخصيص.<br><br>مناسبة للبيئات المختلفة (Development \/ Production).<br><br>كما أصبح التعامل مع ملفات .env أكثر أمانًا وتنظيمًا.<br><br>🔐 4. تطوير نظام المصادقة والأمان<br><br>الأمان دائمًا أولوية في Laravel، وفي الإصدار 11 تم تحسين:<br><br>نظام تسجيل الدخول.<br><br>إدارة الجلسات.<br><br>حماية CSRF.<br><br>تشفير البيانات.<br><br>وهذا يساعدك على بناء تطبيقات آمنة دون تعقيد.<br><br>📦 5. دعم أفضل للحزم (Packages)<br><br>أصبح تثبيت واستخدام الإضافات أكثر سلاسة:<br><br>توافق أفضل مع Composer.<br><br>تقليل مشاكل التعارض.<br><br>سهولة تحديث الحزم.<br><br>مما يساعدك على توسيع مشروعك بسرعة.<br><br>🧩 6. تجربة مطور أفضل (Developer Experience)<br><br>Laravel 11 يهتم كثيرًا بالمطور من خلال:<br><br>رسائل أخطاء أوضح.<br><br>توثيق أفضل.<br><br>أوامر Artisan محسّنة.<br><br>دعم أفضل للاختبارات (Testing).<br><br>كل هذا يقلل وقت التطوير ويزيد الإنتاجية.<br><br>🔄 7. دعم طويل الأمد (LTS)<br><br>Laravel 11 يعتبر إصدارًا طويل الدعم، مما يعني:<br><br>تحديثات أمنية مستمرة.<br><br>استقرار أكبر.<br><br>مناسب للمشاريع التجارية.<br><br>وهذا يجعله خيارًا ممتازًا للمشاريع طويلة المدى.<br><br>📈 لماذا تنتقل إلى Laravel 11؟<br><br>إذا كنت تستخدم إصدارًا قديمًا، فهذه أهم الأسباب للترقية:<br><br>✅ أداء أعلى<br>✅ كود أنظف<br>✅ أمان أفضل<br>✅ دعم مستقبلي<br>✅ أدوات أحدث<br><br>📝 مثال بسيط (Route في Laravel 11)<br>use Illuminate\\Support\\Facades\\Route;<br><br>Route::get('\/', function () {<br>&nbsp; &nbsp; return view('welcome');<br>});<br><br><br>الكود أصبح أوضح وأبسط بدون تعقيد.<br><br>💡 نصائح قبل الترقية<br><br>قبل الانتقال إلى Laravel 11، تأكد من:<br><br>تحديث PHP إلى الإصدار المناسب.<br><br>عمل نسخة احتياطية للمشروع.<br><br>مراجعة الحزم المستخدمة.<br><br>اختبار المشروع بعد التحديث.<br><br>✨ الخلاصة<br><br>Laravel 11 ليس مجرد تحديث عادي، بل خطوة كبيرة نحو:<br><br>مشاريع أسرع.<br><br>كود أنظف.<br><br>تجربة تطوير أفضل.<br><br>إذا كنت مطور ويب وتسعى للاحتراف، فإن Laravel 11 خيار لا غنى عنه في مسيرتك.<\/p>",
+            "content_en": "<p>In the world of web development, Laravel continues to maintain its position as one of the most powerful and popular PHP frameworks, thanks to its simplicity, power, and constant updates. With the release of Laravel 11, the team led by Taylor Otwell has brought us a set of significant improvements focused on performance, flexibility, and developer experience.<br><br>In this article, we'll learn about the most prominent new features in Laravel 11 and why you should upgrade to it.<br><br>✅ 1. Simpler and lighter structure<br><br>One of the most important changes in Laravel 11 is the simplification of the project structure:<br><br>Reduce the number of default files.<br><br>Remove unnecessary files for small projects.<br><br>Improved organization of settings folders.<br><br>This makes the project:<br><br>Easier to understand.<br><br>Faster setup.<br><br>Suitable for beginners and professionals.<br><br>⚡ 2. Significantly improve performance<br><br>Laravel 11 places great emphasis on speed, as it has:<br><br>Improved frame loading.<br><br>Reduce memory consumption.<br><br>Speed ​​up execution of orders.<br><br>The result?<br>🚀 Faster applications and better user experience, especially on large projects.<br><br>🛠️ 3. Optimize the Configuration system<br><br>The settings management method has been developed to be:<br><br>More flexible.<br><br>Easier to customize.<br><br>Suitable for different environments (Development \/ Production).<br><br>Working with .env files has also become safer and more organized.<br><br>🔐 4. Developing an authentication and security system<br><br>Security is always a priority in Laravel, and in version 11 we have improved:<br><br>Login system.<br><br>Session management.<br><br>CSRF protection.<br><br>Data encryption.<br><br>This helps you build secure applications without complexity.<br><br>📦 5. Better package support<br><br>Installing and using extensions just got easier:<br><br>Better compatibility with Composer.<br><br>Reduce conflict problems.<br><br>Ease of updating packages.<br><br>Which helps you expand your project quickly.<br><br>🧩 6. Better Developer Experience<br><br>Laravel 11 takes great care of the developer by:<br><br>Clearer error messages.<br><br>Better documentation.<br><br>Improved Artisan commands.<br><br>Better support for testing.<br><br>All of this reduces development time and increases productivity.<br><br>🔄 7. Long Term Support (LTS)<br><br>Laravel 11 is considered a long-support release, which means:<br><br>Continuous security updates.<br><br>Greater stability.<br><br>Suitable for commercial projects.<br><br>This makes it an excellent choice for long-term projects.<br><br>📈 Why move to Laravel 11?<br><br>If you're using an older version, these are the top reasons to upgrade:<br><br>✅ Higher performance<br>✅ Cleaner code<br>✅ Better security<br>✅ Future support<br>✅ Newer tools<br><br>📝 Simple Example (Route in Laravel 11)<br>use Illuminate\\Support\\Facades\\Route;<br><br>Route::get('\/', function () {&nbsp;<br>return view('welcome');<br>});<br><br><br>The code has become clearer and simpler without complexity.<br><br>💡 Tips before upgrading<br><br>Before moving to Laravel 11, make sure:<br><br>Update PHP to the appropriate version.<br><br>Make a backup copy of the project.<br><br>Review the packages used.<br><br>Testing the project after updating.<br><br>✨ Conclusion<br><br>Laravel 11 is not just an ordinary update, but a big step towards:<br><br>Faster projects.<br><br>Cleaner code.<br><br>Better development experience.<br><br>If you are a web developer seeking professionalism, Laravel 11 is an indispensable choice in your career.<\/p>",
+            "image": "https:\/\/images.unsplash.com\/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop",
+            "published_at": "2026-02-15T22:07:41.000000Z",
+            "created_at": "2026-02-17T22:07:41.000000Z",
+            "updated_at": "2026-02-19T20:41:43.000000Z"
+        }
+    ]
+}

@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y \
     libzip-dev libpng-dev libonig-dev libxml2-dev \
     libpq-dev libicu-dev
 
-# تثبيت امتدادات PHP اللازمة لـ Laravel
+# تثبيت امتدادات PHP الضرورية
 RUN docker-php-ext-install \
     pdo \
     pdo_mysql \
@@ -16,7 +16,7 @@ RUN docker-php-ext-install \
     exif \
     pcntl \
     bcmath \
-    gd     \    
+    gd \
     intl
 
 # تثبيت Composer
@@ -25,12 +25,15 @@ COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 WORKDIR /app
 COPY . .
 
-# إنشاء env مؤقت لو غير موجود
+# إنشاء .env مؤقت إذا لم يوجد
 RUN cp .env.example .env || true
 
-# تثبيت dependencies
+# تثبيت حزم Composer
 RUN composer install --no-dev --optimize-autoloader --no-interaction
+
+# تنظيف cache Laravel
+RUN php artisan config:clear && php artisan cache:clear && php artisan route:clear && php artisan view:clear
 
 EXPOSE 10000
 
-CMD php artisan config:clear && php artisan serve --host=0.0.0.0 --port=10000
+CMD php artisan serve --host=0.0.0.0 --port=10000

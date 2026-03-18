@@ -17,8 +17,8 @@
         <div class="max-w-7xl mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20">
                 @foreach($works as $work)
-                    <div class="reveal block card-tilt">
-                        <div class="relative overflow-hidden rounded-[2px] bg-dark-800 aspect-[16/10] mb-8 group">
+                    <a href="{{ route('work.show', $work->slug) }}" class="reveal block card-tilt group">
+                        <div class="relative overflow-hidden rounded-[2px] bg-dark-800 aspect-[16/10] mb-8">
                             <!-- Category Badge -->
                             <div class="absolute top-6 right-6 z-20">
                                 <span class="bg-dark-900/80 backdrop-blur-md text-accent text-[10px] uppercase tracking-[0.2em] px-4 py-2 rounded-full border border-white/5">
@@ -28,7 +28,7 @@
 
                             <!-- Image -->
                             @if($work->image)
-                                <img src="{{ asset('storage/'.$work->image) }}" alt="{{ $work->{'title_'.app()->getLocale()} }}" 
+                                <img src="{{ str_starts_with($work->image, 'http') ? $work->image : asset('storage/'.$work->image) }}" alt="{{ $work->{'title_'.app()->getLocale()} }}" 
                                      class="img-reveal object-cover w-full h-full transform scale-110 group-hover:scale-100 transition-transform duration-1000 ease-out grayscale-[0.3] group-hover:grayscale-0">
                             @else
                                 <div class="w-full h-full flex items-center justify-center text-dark-700 font-serif italic text-2xl">Arik Studio</div>
@@ -44,14 +44,14 @@
 
                         <div class="flex justify-between items-start">
                              <div>
-                                <h3 class="text-3xl font-serif text-text-primary transition-colors duration-300">
+                                <h3 class="text-3xl font-serif text-text-primary group-hover:text-accent transition-colors duration-300">
                                     {{ $work->{'title_'.app()->getLocale()} }}
                                 </h3>
                                 <p class="text-sm text-text-secondary/50 uppercase tracking-[0.2em] mt-3"> {{ $work->{'category_'.app()->getLocale()} }}</p>
                              </div>
                              <span class="text-text-secondary/20 font-serif italic text-3xl transition-colors">/0{{ $loop->iteration }}</span>
                         </div>
-                    </div>
+                    </a>
                 @endforeach
             </div>
         </div>

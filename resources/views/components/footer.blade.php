@@ -70,7 +70,7 @@
             <div>
                 <h4 class="text-text-primary font-serif italic text-xl mb-8">{{ __('messages.footer.services') }}</h4>
                 <ul class="space-y-4">
-                    @foreach(\App\Models\Service::take(4)->get() as $service)
+                    @foreach(\App\Services\StaticDataProvider::getServices()->take(4) as $service)
                         <li><a href="{{ route('services') }}"
                                 class="text-text-secondary opacity-60 hover:text-accent hover:opacity-100 transition-all duration-300 line-clamp-1 border-b border-transparent hover:border-accent/20">
                                 {{ $service->{'title_'.app()->getLocale()} }}
