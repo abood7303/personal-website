@@ -14,6 +14,14 @@ Route::get('lang/{locale}', function ($locale) {
 
 use App\Services\StaticDataProvider;
 
+Route::get('/test-key', function () {
+    return [
+        'exists' => !empty(env('OPENAI_API_KEY')),
+        'length' => strlen((string) env('OPENAI_API_KEY')),
+    ];
+});
+
+
 Route::group(['middleware' => 'web'], function() {
     Route::get('/', function () { 
         return view('home', [
